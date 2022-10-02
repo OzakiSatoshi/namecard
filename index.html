@@ -8,15 +8,15 @@
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <!-- AR.js を読み込む -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-    <title>任意のページタイトル</title>
+    <title>名刺AR</title>
   </head>
   <body style="margin: 0; overflow: hidden">
     <a-scene embedded arjs vr-mode-ui="enabled: false;">
 	    
       <!-- 3DCGモデルを読み込む -->
       <a-assets>
-        <a-asset-item id="ozaki" src="./asset/ozaki.glb"></a-asset-item>
-        <audio id = "voice" src = "./asset/voice7s.mp4" autoplay: true"> </audio>
+        <a-asset-item id="ozaki" src="./assets/ozaki.glb"></a-asset-item>
+        <audio id = "voice" src = "./assets/voice7s.mp4" autoplay: true"> </audio>
       </a-assets>
       
       <!-- マーカーの.pattファイルを読み込む -->
